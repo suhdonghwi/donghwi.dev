@@ -19,11 +19,7 @@ class BlogIndex extends React.Component {
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           const readingTime = Math.ceil(node.fields.readingTime.minutes)
-          const readingText =
-            "🍕".repeat(Math.ceil(readingTime / 5)) +
-            " " +
-            readingTime +
-            "분 소요"
+          const readingText = readingTime + "분 소요"
           return (
             <article key={node.fields.slug}>
               <header>
@@ -45,7 +41,7 @@ class BlogIndex extends React.Component {
                     {title}
                   </Link>
                 </h3>
-                <small>
+                <small style={{ color: `#adb5bd` }}>
                   {node.frontmatter.date} • {readingText}
                 </small>
               </header>
