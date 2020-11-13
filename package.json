@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "donghwi.dev",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Suh Donghwi's blog mainly about development, built with gatsbyjs",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Suh Donghwi <hwidongsuh@gmail.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/suhdonghwi/donghwi.dev/issues"
   },
   "dependencies": {
     "gatsby": "^2.19.5",
