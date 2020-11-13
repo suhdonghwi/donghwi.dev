@@ -62,8 +62,9 @@ class Layout extends React.Component {
       >
         <header>{header}</header>
         <main>{children}</main>
-        <footer>
-          &copy; {new Date().getFullYear()}, Made with a lot of ❤️ by Suh Donghwi
+        <footer style={{ color: `#adb5bd` }}>
+          &copy; {new Date().getFullYear()}, Made with a lot of love by Suh
+          Donghwi
         </footer>
       </div>
     )

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `donghwi :: Pizza -> Code`,
+    title: `donghwi.dev`,
     author: `서동휘`,
     description: `제가 배우고 느낀 것들을 정리해서 올립니다.`,
     siteUrl: `https://donghwi.dev`,
